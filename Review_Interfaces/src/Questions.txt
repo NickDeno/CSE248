@@ -1,0 +1,23 @@
+1. The difference between using Comparabale and Comparator interfaces in Java is mainly based on when
+   the interfaces are implemented. With the Comparable interface, it is implemented within the class of the
+   object we want to use Comparable on. The user specifies how the object will be compared by overriding the default
+   compareTo method. With Comparator, the implementation is more flexible. Instead of having how the object is compared
+   "hard coded" with Comparable in the class of the object, we can implement Comparator when needed and have multiple 
+   different implementations of how the object is compared.
+   
+2. To implement the Comparable interface to sort a custom object, we would first have to have the class of the object
+   implement the Comparable interface. After doing this, we will be forced to override the default compareTo method
+   of Comparable. In this method, we can specify which field of the object will be used to compare 2 of the same objects.
+   Finally, we can create an array or collections of this element and use Arrays.sort or Collections.sort. These 2
+   methods use the compareTo method of the object to sort, so based on the implemntation of the compareTo method will
+   determine how the objects are sorted
+  
+3. The purpose of the equals() method is to compare to objects and to determine if they are equal or not. The equals()
+   method default behavior to determine if objects are equal or not is by looking at the memory addresses/reference 
+   value. If they are the same, then the objects are equal. However, we can override the behavior of this method in the 
+   class of the object. We would also have to override the hashCode() method as well, as the hashcode of object is also 
+   used to determine equalness in 2 objects
+   
+4. 
+   
+   
