@@ -9,7 +9,7 @@
    implement the Comparable interface. After doing this, we will be forced to override the default compareTo method
    of Comparable. In this method, we can specify which field of the object will be used to compare 2 of the same objects.
    Finally, we can create an array or collections of this element and use Arrays.sort or Collections.sort. These 2
-   methods use the compareTo method of the object to sort, so based on the implemntation of the compareTo method will
+   methods use the compareTo method of the object to sort, so based on the implementation of the compareTo method will
    determine how the objects are sorted
   
 3. The purpose of the equals() method is to compare to objects and to determine if they are equal or not. The equals()
@@ -19,5 +19,36 @@
    used to determine equalness in 2 objects
    
 4. 
+
+5. The requirements for implementing the Comparable interface is that we must implement the compareTo method where the 
+   compareTo method returns -1 for object being less then other object, 1 for object being greater then other object, and 
+   0 for object being equal to other object.
+   
+6. Yes, we can compare objects that do not implement the Comparable interface. To do this, we can use the Comparator
+   interface. We can determine how these objects are compared by implementing the compare method of the Comparator 
+   interface. In this method, we determine which field of the object is used for comparison. We can implement this method
+   by either creating a concrete class and implementing the Comparator interface, using anoymous class implementation, or
+   using lambda expression implementation.
+   
+7. The compareTo method works by comparing the current object(this), and another object of the same type. Then, for example,
+   if we had a Student object and wanted Student objects to be compared based on their names, we could do 
+   this.getName().compareTo(s.getName()) where "this" is the current object and s is the other object of type student. Then, 
+   the compareTo method will return -1 if the first objects name(this) is < second objects name(s), 0 if first objects name
+   (this) is = second objects name(s), and 1 if first objects name(this) is > second objects name(s)
+   
+8. Yes, technically the default implementation of equals() can be used to compare objects of 2 different classes since it 
+   can take it Object type which encompasses all types of objects. However, it is not really meant for this because objects
+   of different classes usually have different properties and fields, so 2 different types of objects will most likely 
+   never be equal.
+   
+9.
+
+10. We can use the Comparable interface to sort list of objects by first implementing the Comparable interface in this objects
+    class. Then, we will be forced to implement the compareTo method. Here, will be the logic on how the objects will be sorted
+    based on what field we choose to use(If we dont chose field, objects will be sorted in natural order). Then, after 
+    implementing the compareTo method, we can call Collections.sort on the list. By default, if the object type of the list
+    implements the Comparable interface, the Collections.sort method will use the compareTo method to determine the order.
+
+11.
    
    
