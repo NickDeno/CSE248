@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 INDEX VERSION 1.131+C:\Users\Nickd\Desktop\CSE Workspaces\CSE248 Workspace\.metadata\.plugins\org.eclipse.jdt.core
+=======
+INDEX VERSION 1.131+F:\Users\Nick DeNobrega\Desktop\CSE Workspaces\CSE248 Workspace\.metadata\.plugins\org.eclipse.jdt.core
+108192875.index
+3959137331.index
+326457737.index
+2994044587.index
+1436572918.index
+859814516.index
+1282646146.index
+>>>>>>> 59e3e7fc750cf886f66625f304f7ea5e8d666d93
 1865797976.index
 2994044587.index
 108192875.index
