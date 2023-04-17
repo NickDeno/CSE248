@@ -1,6 +1,5 @@
 package temperature_conversion;
 
-import java.nio.channels.ClosedChannelException;
 
 //Inline Comment: Will not go into java doc
 
