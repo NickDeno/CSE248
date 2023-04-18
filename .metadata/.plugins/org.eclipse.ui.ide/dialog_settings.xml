@@ -6,7 +6,12 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+<<<<<<< HEAD
 			<item value="F:\Users\Nick DeNobrega\Desktop\CSE Workspaces\CSE248 Workspace"/>
+=======
+			<item value="C:\Users\Nickd\Desktop\CSE Workspaces\CSE248 Workspace\AM_L05_JavaDoc"/>
+			<item value="C:\Users\Nickd\Desktop\CSE Workspaces\CSE248 Workspace"/>
+>>>>>>> 6c08d13bff9187ea462e497b4fad4f79d080a4eb
 		</list>
 	</section>
 </section>
