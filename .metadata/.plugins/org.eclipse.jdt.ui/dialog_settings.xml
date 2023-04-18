@@ -94,9 +94,9 @@
 	<section name="JavadocWizardDialog">
 		<item key="DIALOG_X_ORIGIN" value="780"/>
 		<item key="DIALOG_Y_ORIGIN" value="224"/>
-		<item key="DIALOG_WIDTH" value="1022"/>
-		<item key="DIALOG_HEIGHT" value="836"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_WIDTH" value="616"/>
+		<item key="DIALOG_HEIGHT" value="567"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="javadoc">
 		<item key="javadoc_command_history" value="C:\Program Files\Java\jdk-19\bin\javadoc.exe"/>
