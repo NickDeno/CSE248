@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Nickd\Desktop\CSE Workspaces\CSE248 Workspace"/>
 			<item value="F:\Users\Nick DeNobrega\Desktop\CSE Workspaces\CSE248 Workspace"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
