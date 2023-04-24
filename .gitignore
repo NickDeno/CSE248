@@ -64,4 +64,5 @@ local.properties
 *.resources
 .metadata/version.ini
 .metadata/
+*.metadata/
 metadata/
