@@ -1,7 +1,5 @@
 package q12;
 
-import q13.Passenger;
-
 //"Whole" class in Composition relationship
 public class TourGuide {
     private String name;
